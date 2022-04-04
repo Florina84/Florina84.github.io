@@ -50,6 +50,9 @@ body {
     width: 480px;
     height: 64px;
     color: #98A991;
+    padding-left: 10px;
+    border: none;
+    
 }
 
 @media only screen and (max-width: 520px) {
@@ -74,6 +77,8 @@ body {
     background-color: #F9C582;
     color: #006837;
     border-radius: 80px;
+    border: none;
+    font-weight: bold;
     
 }
 
@@ -87,5 +92,11 @@ body {
     background-color: #F9C582;
     color: #006837;
     border-radius: 80px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: grid;
+   justify-content: end;
 }
 }
